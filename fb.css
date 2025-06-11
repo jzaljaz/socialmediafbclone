@@ -1,0 +1,147 @@
+.header{
+    background: #3b5998 ;
+    height:85px;
+    width: 100%;
+}
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    float: left;
+    width: 50%;
+    padding-top: 32px ;
+
+}
+.logotext{
+    color: rgb(183, 196, 206);
+    font-style: apple;
+    margin-left: 170px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login{
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: -1px;
+}
+
+.login_controls{
+    margin-left: 115px;
+}
+
+.forgotten{
+    color:#ffff;
+    font-size: 11px;
+    text-decoration: none;
+    color: #9cb4d8;
+}
+.login_button{
+    font-family: inherit;
+    color: white;
+    height: 20px;
+    background: #4267b2;
+    border-color: #29487d;
+    border: 0;
+    cursor: pointer;
+}
+.login_button:hover{
+    background:#29487d
+}
+
+.login-label{
+    color: white;
+    font-size: 12px;
+}
+
+.leftsection{
+    padding-left: 134px;
+    padding-top: 52px;
+    width: 50%;
+    float: left;
+}
+
+.rightsection{
+    width: 39%;
+    float: left;
+}
+.main-body{
+    background: linear-gradient(white,#d3d8e8);
+    width: 100%;
+    height: 755px ;
+}
+.para{
+    font-size: 21px;
+    font-weight: bold;
+}
+.image{
+    width:581px;
+}
+.inputfldsfrstname {
+    height: 35px; 
+    width: 200px;
+    border-radius: 4px;
+    font-size: 15px;     
+    border: 1px solid rgb(215, 215, 215); /* Correct way to add a border */
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.inputfldsscndname{
+    height: 35px; 
+    width: 200px;
+    border-radius: 4px;
+    font-size: 15px;     
+    border: 1px solid rgb(215, 215, 215); /* Correct way to add a border */
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.inputfldmobile{
+    height: 35px; 
+    width: 420px;
+    border-radius: 4px;
+    font-size: 15px;     
+    border: 1px solid rgb(215, 215, 215); /* Correct way to add a border */
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.bday{
+    border:none;
+    height: 35px;
+    width: 100px;
+}
+.gender-container {
+    display: flex;
+    gap: 20px; /* Adds spacing between the radio button labels */
+}
+
+.gender-option {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adds a small gap between the radio button and its label text */
+}
+
+
+
+.signup_button {
+    width:250px;
+	height:40px;
+	left:750px;
+	top:625px;
+	background:green;
+	font-family:verdana;
+	font-size:18px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+}
+    #intro4{
+        font-family:verdana;
+        font-size:12px;
+        color:gray;
+    }       
